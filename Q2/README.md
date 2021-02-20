@@ -14,7 +14,7 @@
 go run .
 ```
 
-We have JSON Data:
+JSON Data:
 =
 https://gist.github.com/dhamanutd/6993984928506eea49908c2e3fcbc628
 

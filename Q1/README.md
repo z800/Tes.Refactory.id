@@ -2,7 +2,7 @@
 
 > **Result**
 
-![Qr Demo](Q1.gif)
+![Q1 Demo](Q1.gif)
 
 > **Run**
  

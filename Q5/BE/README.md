@@ -1,8 +1,12 @@
 **Q5 Backend Refactory.id**
 
-> **Result Client**
+> **Result Client & Server**
 
-![Q5.BE.client Demo](Q5.BE.client.gif)
+![Q5.BE.client Client](Q5.BE.client.gif) ![Q5.BE.Server Server](Q5.BE.server.gif)
+
+> **Result Log**
+
+![Q5.BE.log log](Q5.BE.log.gif)
 
 > **Run**
 

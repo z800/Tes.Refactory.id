@@ -10,7 +10,7 @@
 
 > **Run**
 1. Clone this repo
-2. Go to **Q5/BE** Folder
+2. Go to **Q5->BE** Folder
 3. Execute with
 
 ```

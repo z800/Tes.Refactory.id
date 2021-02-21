@@ -9,9 +9,20 @@
 ![Q5.BE.log log](Q5.BE.log.gif)
 
 > **Run**
+1. Clone this repo
+2. Go to **Q5/BE** Folder
+3. Execute with
+
+```
+go run server.go // Execute Server APP
+go run client.go // Execute Client APP
+tail -f server.log // Print Log
+```
 
 Build client-server app regarding these criterias:
 Every minutes client will send POST request to server with following payload::
+=
+
 ```
 // Header
 "X-RANDOM": "93f9h3dx"
@@ -28,7 +39,10 @@ Every minutes client will send POST request to server with following payload::
 ```
 
 Server will receive a request from the client above. Then the server will save those received request to server.log file. After that server must return a response to the client with HTTP status code 201.
+
 Example server.log:
+=
+
 ```
 [2020-07-28T16:23:40+07:00] Success: POST http://192.168.1.30/ {"counter": 1, "X-RANDOM": "93f9h3dx"}
 [2020-07-28T16:24:40+07:00] Success: POST http://192.168.1.30/ {"counter": 2, "X-RANDOM": "fe9g83jm"}
